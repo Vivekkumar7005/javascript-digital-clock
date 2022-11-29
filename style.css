@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    font-weight: 600;
+    background-color: black;
+}
+.heading{
+    width: 40%;
+    height: 8%;
+    color: #EFC234;
+    /* background-color: #EFC234; */
+    margin: 5% auto;
+    font-size: 40px;
+    text-align: center;
+}
+h6{
+    display: inline;
+}
+.greet{
+    width: 10%;
+    height: 4%;
+    margin-left: 42%;
+    display: inline;
+    /* background-color: red; */
+    color: aqua;
+    text-align: left;
+    font-size: 20px;
+}
+.icon{
+    width: 5%;
+    height: 8%;
+    font-size: 50px;
+    /* background-color: blue; */
+    display: inline;
+}
+i{
+    color: white;
+    margin-bottom: 10%;
+}
+.digi_clock{
+    width: 40%;
+    height: 15%;
+    border: 1px solid black;
+    margin: -5% auto;
+}
+#hour_hand{
+    width: 25%;
+    height: 100%;
+    border: 1px solid black;
+    float: left;
+    font-size: 60px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 2.5%;
+}
+#minute_hand{
+    width: 25%;
+    height: 100%;
+    border: 1px solid black;
+    float: left;
+    font-size: 60px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 2.5%;
+}
+#second_hand{
+    width: 25%;
+    height: 100%;
+    border: 1px solid black;
+    float: left;
+    font-size: 60px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 2.5%;
+}
+#twelve_hours_past{
+    width: 25%;
+    height: 100%;
+    border: 1px solid black;
+    float: left;
+    font-size: 60px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 2.5%;
+}
